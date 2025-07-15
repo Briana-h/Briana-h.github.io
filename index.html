@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Personal portfolio - Briana K Hernandez Damian</title>
-    <meta name="description" content="Personal portfolio showcasing Briana K Hernandez Damian's artwork across various mediums including digital art, graphic design, drawing, and illustration." />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Briana K Hernandez Damian - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Briana K Hernandez Damian</h1>
+    <p class="subtitle">Personal Portfolio</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Briana, a passionate creative exploring color, form, and emotion through diverse mediums and techniques. This is my personal portfolio where I share artwork, design projects, and experiences that inspire me.</p>
+      <img src="images/your-photo.jpg" alt="Your portrait" class="profile-photo">
+    </section>
+
+    <section id="portfolio">
+      <h2>Artwork & Portfolio</h2>
+      <div class="gallery">
+        <img src="images/art1.png" alt="Artwork 1">
+        <img src="images/art2.png" alt="Artwork 2">
+        <img src="images/art3.png" alt="Artwork 3">
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Media Manager & Guitarist – Plata Azul Mariachi</h3>
+        <p>Designed the group’s logo and posters, managed communications and gig inquiries, and performed as a guitarist at community events.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Lifeguard</h3>
+        <p>Red Cross certified in CPR and Lifeguarding; ensured safety and quick response in aquatic environments.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/your-linkedin" target="_blank">Your LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Briana K Hernandez Damian</p>
+  </footer>
+</body>
 </html>
