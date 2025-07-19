@@ -26,7 +26,7 @@ Skills to highlight:
 - **Framework**: React 18 with TypeScript
 - **Styling**: Tailwind CSS with custom CSS variables for theming
 - **UI Components**: Radix UI primitives with shadcn/ui component library
-- **Routing**: Wouter for client-side routing
+- **Routing**: Wouter for client-side routing with multiple pages
 - **State Management**: TanStack Query for server state management
 - **Build Tool**: Vite for development and production builds
 
@@ -40,14 +40,15 @@ Skills to highlight:
 ### Key Components
 
 #### Frontend Components
-- **Navigation**: Fixed navigation bar with smooth scrolling
+- **Navigation**: Fixed navigation bar with smooth scrolling and routing
 - **Hero Section**: Profile image and introduction
 - **About Section**: Personal description and background
 - **Skills Section**: Technical skills including Adobe Creative Suite
 - **Portfolio Gallery**: Responsive grid layout for artwork display
 - **Experience Section**: Professional experience cards
-- **Contact Section**: Contact information and social links
+- **Contact Section**: Contact information, social links, and resume download
 - **Footer**: Site navigation and additional information
+- **AI Chatbot Page**: Embedded Chatbase chatbot for user interaction
 
 #### UI System
 - **Design System**: shadcn/ui components with consistent theming
@@ -59,9 +60,10 @@ Skills to highlight:
 ### Data Flow
 
 #### Static Assets
-- Images stored in `attached_assets/` directory
-- Assets imported directly into components
-- Optimized loading with proper alt text and responsive sizing
+- Images stored in `attached_assets/` directory and imported into components
+- Resume PDF file stored in `client/public/` directory for direct download
+- Assets optimized with proper alt text and responsive sizing
+- Download functionality implemented for resume PDF
 
 #### Component Structure
 - Modular component architecture
